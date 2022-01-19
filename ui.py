@@ -41,7 +41,7 @@ class handler_class:
         self.firing = False
         
         
-        self.rad_per_pix = math.atan(math.sin(math.radians(43/2))/(screen_h/2)/math.cos(math.radians(43/2)))
+        self.rad_per_pix = math.atan(math.sin(math.radians(43/2))/(screen_h/2)/math.cos(math.radians(43/2)))  # set the vertical fov of the camera, in this case it is 43 deg
         self.pix_per_rad = 1/self.rad_per_pix
         
         

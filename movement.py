@@ -21,8 +21,8 @@ now_x = 0
 now_y = 0
 
 
-step_size = 1
-sleep_time = 1/50
+step_size = 1 # larger value will result in servo moving faster
+sleep_time = 1/50  # smaller value will result in servo moving faster
 
 
 
